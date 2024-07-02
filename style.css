@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    position: fixed;
+    width: 100%;
+}
+
+#nav h3 {
+    background: #000;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 22px;
+    border-radius: 50px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#main #intro {
+    height: 45%;
+    width: 100%;
+    padding: 55px 60px;
+}
+
+#main h1 {
+    font-size: 145px;
+    line-height: 133px;
+    letter-spacing: -3px;
+}
+
+/* place */
+#place {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#place h3,
+#place h4 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+/* hero image */
+#hero-image {
+    height: 87%;
+    width: 100%;
+    background: orange;
+    background-image: url('./assets/images/bent.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
